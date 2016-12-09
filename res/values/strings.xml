@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_button_label">Login</string>
+    <string name="user_label">E-mail</string>
+    <string name="password_label">Password</string>
+    <string name="app_name">NollyGold</string>
+    <string name="login_example">E.g. username@gmail.com</string>
+    <string name="password_example">NOT your e-mail password</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_downloads">Downloads</string>
+    <string name="action_close">Close</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="image_desciption">Image</string>
+    <string name="title">Title</string>
+    <string name="year">Year</string>
+    <string name="price">Price</string>
+    <string name="producer">Producer</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="review">User Reviews</string>
+    <string name="cast">Cast</string>
+    <string name="image_description">menu</string>
+    <string name="title_about">NollyGold Mobile App</string>
+    <string name="title_web_link">www.goldfistng.com</string>
+    <string name="register_label">Register</string>
+    <string name="title_activity_details">Movie Details</string>
+    <string name="title_activity_you_tube_stream">YouTubeStreamActivity</string>
+
+    <string-array name="menu_array">
+        <item>Home</item>
+        <item>My Account</item>
+        <item>Favourites</item>
+        <item>Library</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Search</string>
+    <string name="action_login">Account</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="title_activity_authentication">AuthenticationActivity</string>
+    <string name="title_activity_library">LibraryActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+</resources>

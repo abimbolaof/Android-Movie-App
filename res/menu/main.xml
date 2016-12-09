@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/action_websearch"
+          android:icon="@drawable/action_search"
+          android:title="@string/action_websearch"
+          android:showAsAction="ifRoom|withText" />
+    
+    <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/admin"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_login"/>
+    
+    <item
+        android:id="@+id/action_close"
+        android:icon="@drawable/expired"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_close"/>
+    
+    <!-- <item
+        android:id="@+id/action_check_downloads"
+        android:icon="@drawable/download"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_downloads"/> -->
+</menu>

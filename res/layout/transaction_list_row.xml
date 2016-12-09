@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/rented_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/image_bg"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/rented_list_image"
+            android:layout_width="150dp"
+            android:layout_height="95dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/nolly_icon" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rented_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rented_thumbnail"
+        android:layout_marginTop="5dp"
+        android:text="asdasdasdasd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gold"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Artist Name -->
+
+    
+
+    <TextView
+        android:id="@+id/expiresText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_toRightOf="@+id/rented_thumbnail"
+        android:text="asdasdasdasd"
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!-- Rightend Duration -->
+
+
+    <!-- Rightend Arrow -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/r_arrow" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/expiresText"
+        android:layout_alignTop="@+id/imageView1"
+        android:text="Rented:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gold" />
+    
+    
+    <TextView
+        android:id="@+id/rentedText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_toRightOf="@+id/rented_thumbnail"
+        android:text="asdasdasdasd"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/expiresText"
+        android:layout_below="@id/rentedText"
+        android:layout_marginTop="10dp"
+        android:text="Expires:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gold" />
+
+</RelativeLayout>
